@@ -39,13 +39,13 @@ import (
 	"strings"
 	"time"
 
+	"../cfg"
+	"../tag"
+	"../tag/suggest"
+	"../tag/user"
+	"../thread"
+	"../util"
 	"github.com/russross/blackfriday"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/tag"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/suggest"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/user"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
 )
 
 //CacheInfo is infos of a cache.

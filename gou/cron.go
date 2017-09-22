@@ -32,14 +32,14 @@ import (
 	"log"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/mch/keylib"
-	"github.com/shingetsu-gou/shingetsu-gou/myself"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/thread/download"
+	"../cfg"
+	"../mch/keylib"
+	"../myself"
+	"../node"
+	"../node/manager"
+	"../recentlist"
+	"../thread"
+	"../thread/download"
 )
 
 var running bool

@@ -40,16 +40,16 @@ import (
 	"strings"
 	"time"
 
+	"../../cfg"
+	"../../cgi"
+	"../../node"
+	"../../node/manager"
+	"../../recentlist"
+	"../../record"
+	"../../tag/user"
+	"../../updateque"
+	"../../thread"
 	"github.com/shingetsu-gou/go-nat"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/user"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/updateque"
 )
 
 //Setup setups handlers for server.cgi

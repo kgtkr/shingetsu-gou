@@ -47,16 +47,16 @@ import (
 	"strings"
 	"time"
 
+	"../../cfg"
+	"../../cgi"
+	"../../record"
+	"../../tag/user"
+	"../../thread"
+	"../../thread/download"
+	"../../updateque"
+	"../../util"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/user"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/thread/download"
-	"github.com/shingetsu-gou/shingetsu-gou/updateque"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
 )
 
 //Setup setups handlers for thread.cgi

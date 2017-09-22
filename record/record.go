@@ -40,10 +40,10 @@ import (
 	"encoding/json"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../cfg"
+	"../db"
+	"../node"
+	"../util"
 )
 
 var cachedRule *util.RegexpList

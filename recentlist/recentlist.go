@@ -39,12 +39,12 @@ import (
 	"encoding/json"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/suggest"
+	"../cfg"
+	"../db"
+	"../node"
+	"../node/manager"
+	"../record"
+	"../tag/suggest"
 )
 
 const defaultUpdateRange = 24 * time.Hour // Seconds

@@ -33,12 +33,12 @@ import (
 	"strings"
 	"time"
 
+	"../cfg"
+	"../db"
+	"../recentlist"
+	"../record"
+	"../util"
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
 )
 
 //Cache represents cache of one file.

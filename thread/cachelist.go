@@ -35,9 +35,9 @@ import (
 	"regexp"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
+	"../cfg"
+	"../db"
+	"../record"
 )
 
 //AllCaches returns all  thread names

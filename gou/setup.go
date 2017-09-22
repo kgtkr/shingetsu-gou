@@ -37,8 +37,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../cfg"
+	"../util"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 )
 

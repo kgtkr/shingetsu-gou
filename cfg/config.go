@@ -37,7 +37,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../util"
 	"gopkg.in/ini.v1"
 )
 

@@ -37,7 +37,7 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
+	"../db"
 )
 
 //Head represents one line in updatelist/recentlist

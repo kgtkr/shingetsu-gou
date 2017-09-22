@@ -38,9 +38,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/gou"
+	"./cfg"
+	"./db"
+	"./gou"
 )
 
 func main() {

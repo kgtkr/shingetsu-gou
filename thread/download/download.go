@@ -35,14 +35,14 @@ import (
 	"sync"
 	"time"
 
+	"../../cfg"
+	"../../db"
+	"../../node"
+	"../../node/manager"
+	"../../recentlist"
+	"../../record"
+	"../../thread"
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
 )
 
 //targetRec represents target records for downloading.

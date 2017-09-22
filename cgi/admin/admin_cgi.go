@@ -29,6 +29,7 @@
 package admin
 
 import (
+	"errors"
 	"fmt"
 	"html"
 	"log"
@@ -40,20 +41,19 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	"errors"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi"
-	"github.com/shingetsu-gou/shingetsu-gou/myself"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/tag"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/suggest"
-	"github.com/shingetsu-gou/shingetsu-gou/tag/user"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../../cfg"
+	"../../cgi"
+	"../../myself"
+	"../../node"
+	"../../node/manager"
+	"../../recentlist"
+	"../../record"
+	"../../tag"
+	"../../tag/suggest"
+	"../../tag/user"
+	"../../thread"
+	"../../util"
 )
 
 var adminSID = ""

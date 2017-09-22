@@ -34,13 +34,13 @@ import (
 	"regexp"
 	"time"
 
+	"../../db"
+	"../../mch"
+	"../../recentlist"
+	"../../record"
+	"../../thread"
+	"../../util"
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/mch"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
 )
 
 func getThread(tx *bolt.Tx, stamp int64) (string, error) {

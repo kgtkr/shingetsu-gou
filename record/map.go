@@ -33,7 +33,7 @@ import (
 	"sort"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
+	"../db"
 )
 
 //Map is a map key=stamp_id, value=record.

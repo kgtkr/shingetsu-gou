@@ -31,7 +31,7 @@ package thread
 import (
 	"sort"
 
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
+	"../recentlist"
 )
 
 //Caches is a slice of *cache

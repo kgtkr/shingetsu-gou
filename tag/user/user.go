@@ -31,9 +31,9 @@ package user
 import (
 	"log"
 
+	"../../db"
+	"../../tag"
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/tag"
 )
 
 //String  returns string form of usertags.

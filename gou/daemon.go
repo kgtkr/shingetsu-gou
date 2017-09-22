@@ -43,14 +43,14 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi/admin"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi/gateway"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi/mch"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi/server"
-	"github.com/shingetsu-gou/shingetsu-gou/cgi/thread"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../cfg"
+	"../cgi"
+	"../cgi/admin"
+	"../cgi/gateway"
+	"../cgi/mch"
+	"../cgi/server"
+	"../cgi/thread"
+	"../util"
 )
 
 //StartDaemon setups saves pid, start cron job and a http server.

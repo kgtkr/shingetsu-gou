@@ -40,9 +40,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/myself"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../cfg"
+	"../myself"
+	"../util"
 )
 
 //Node represents node info.

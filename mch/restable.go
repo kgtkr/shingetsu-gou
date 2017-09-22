@@ -32,8 +32,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
+	"../record"
+	"../thread"
 )
 
 //ResTable maps id[:8] and its number.

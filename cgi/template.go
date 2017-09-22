@@ -38,8 +38,8 @@ import (
 	textTemplate "text/template"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../cfg"
+	"../util"
 )
 
 var (

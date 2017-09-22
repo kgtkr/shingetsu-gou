@@ -33,12 +33,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
-	"github.com/shingetsu-gou/shingetsu-gou/node/manager"
-	"github.com/shingetsu-gou/shingetsu-gou/recentlist"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/thread"
+	"../cfg"
+	"../node"
+	"../node/manager"
+	"../recentlist"
+	"../record"
+	"../thread"
 )
 
 //UpdateQue is for telling updates of records.

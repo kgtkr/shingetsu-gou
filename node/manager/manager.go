@@ -36,11 +36,11 @@ import (
 	"strings"
 	"sync"
 
+	"../../cfg"
+	"../../db"
+	"../../myself"
+	"../../node"
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/myself"
-	"github.com/shingetsu-gou/shingetsu-gou/node"
 )
 
 const (

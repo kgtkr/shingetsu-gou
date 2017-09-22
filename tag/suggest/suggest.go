@@ -32,11 +32,11 @@ import (
 	"log"
 
 	"github.com/boltdb/bolt"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
-	"github.com/shingetsu-gou/shingetsu-gou/db"
-	"github.com/shingetsu-gou/shingetsu-gou/record"
-	"github.com/shingetsu-gou/shingetsu-gou/tag"
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../../cfg"
+	"../../db"
+	"../../record"
+	"../../tag"
+	"../../util"
 )
 
 //Get returns copy of Slice associated with datfile or returns def if not exists.

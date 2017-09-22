@@ -36,7 +36,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../util"
 )
 
 //finfo contains file info,including mtime and content.

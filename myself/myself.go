@@ -7,7 +7,7 @@ import (
 	"time"
 
 	nat "github.com/shingetsu-gou/go-nat"
-	"github.com/shingetsu-gou/shingetsu-gou/cfg"
+	"../cfg"
 )
 
 var ip string

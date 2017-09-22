@@ -38,7 +38,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/shingetsu-gou/shingetsu-gou/util"
+	"../util"
 	"golang.org/x/text/language"
 )
 
